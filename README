@@ -1,0 +1,18 @@
+http://127.0.0.1:8000/wildberries/action/create_campaign/ --- создание кампании [POST]
+body:
+{
+    "product_name": 1,
+    "item_id": 1,
+    "deposit_amount": 1,
+    "btype": 1,
+    "on_pause": 1
+}
+
+http://127.0.0.1:8000/wildberries/action/update_bet/ --- обновление ставки [POST]
+body:
+{
+    "advertisement_id": 1,
+    "cpm": 1,
+    "item_id": 1,
+    "step":1
+}
